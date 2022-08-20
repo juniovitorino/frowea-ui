@@ -1,6 +1,6 @@
 {
   "name": "@frowea/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Frowea UI Library",
   "main": "lib/index.ts",
   "private": false,
