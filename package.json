@@ -3,6 +3,10 @@
   "version": "0.0.0-development",
   "description": "Frowea UI Library",
   "main": "lib/index.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/juniovitorino/frowea-ui"
