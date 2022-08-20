@@ -1,0 +1,17 @@
+{
+  "name": "@frowea/ui",
+  "version": "1.0.0",
+  "description": "Frowea UI Library",
+  "main": "lib/main.ts",
+  "repository": {
+    "url": "https://github.com/juniovitorino/frowea-ui"
+  },
+  "files": [
+    "lib/**"
+  ],
+  "keywords": [
+    "ui"
+  ],
+  "author": "Junio Vitorino",
+  "license": "ISC"
+}
