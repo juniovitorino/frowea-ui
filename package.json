@@ -2,16 +2,38 @@
   "name": "@frowea/ui",
   "version": "1.0.0",
   "description": "Frowea UI Library",
-  "main": "lib/main.ts",
+  "main": "lib/index.ts",
   "repository": {
     "url": "https://github.com/juniovitorino/frowea-ui"
   },
   "files": [
-    "lib/**"
+    "lib/**/*"
   ],
   "keywords": [
     "ui"
   ],
   "author": "Junio Vitorino",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "typescript": "^4.7.4",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^18.0.17",
+    "@types/styled-components": "^5.1.26",
+    "styled-components": "^5.3.5"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/styled-components": "^5.1.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {},
+  "resolutions": {
+    "styled-components": "^5"
+  }
 }
